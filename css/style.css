@@ -184,6 +184,9 @@ section{
 }
 
 .home-img img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
     margin-top: 16%;
     height: inherit;
 }
@@ -615,6 +618,12 @@ header.sticky{
         text-align: left;
         transition: all .45s ease;
     }
+    
+    @media screen and (max-width:480px) {  
+    .img {
+        max-width: 100%;
+    }
+}
 
     .navlist a{
         display: block;
